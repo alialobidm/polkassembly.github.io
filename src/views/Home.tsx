@@ -8,6 +8,7 @@ import WhySection from '../components/Home/WhySection';
 import TestimonialSection from '../components/Home/TestimonialSection';
 import GovernSection from '../components/Home/GovernSection';
 import KeyFeaturesSection from '../components/Home/KeyFeaturesSection';
+import AdBanner from '../components/AdBanner';
 
 export default function Home() {
 	return (
@@ -19,6 +20,7 @@ export default function Home() {
 			<RecognitionSection />
 			{/* <TestimonialSection /> */}
 			<GovernSection />
+			<AdBanner />
 			<MonthlyNewsLetter />
 			<Footer />
 		</>
