@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev-network": "vite --host",
-    "build": "tsc && vite build",
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r public/* dist/",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
